@@ -43,10 +43,8 @@ export default function Page() {
     <main className="min-h-screen overflow-hidden bg-[#f4f6f1] text-[#18231f] selection:bg-[#b8e5c7]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10" aria-label="Main navigation">
         <a href="#top" className="flex items-center gap-2.5" aria-label="aiSafely home">
-          <span className="grid size-8 place-items-center rounded-[10px] bg-[#18382b] text-[#d8f4dc]">
-            <Radar className="size-4" strokeWidth={2.2} />
-          </span>
-          <span className="text-[17px] font-semibold tracking-[-0.04em]">aiSafely</span>
+          <img src="/logo.svg" className="h-15 w-auto" />
+          <span className="text-[24px] font-semibold tracking-[-0.04em]">aiSafely</span>
         </a>
         <div className="hidden items-center gap-9 text-[13px] font-medium text-[#607169] md:flex">
           <a className="transition-colors hover:text-[#18231f]" href="#mission">Mission</a>
